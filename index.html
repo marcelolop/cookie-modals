@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style/reset.css" />
+    <link rel="stylesheet" href="./assets/style/index.css" />
+    <script src="./assets/script/cookie.js" type="module"></script>
+    <title>Cookies</title>
+  </head>
+  <body>
+    <main>
+        <div class="container">
+            <h1>Cookies</h1>
+            <p>
+            <strong>Cookies</strong> are an important part of web development in <strong class="yellow">JavaScript</strong>. They allow websites to store small pieces of information on a user's computer. <strong>By using cookies</strong>, websites can remember user preferences and track user behavior. <em>With cookies</em>, developers can personalize user experiences and provide targeted content. Additionally, cookies can be used for authentication, session management, and tracking user sessions. Overall, cookies are a powerful tool in JavaScript for enhancing website functionality and improving user experiences.
+            </p>
+        </div>
+      <!-- First Modal -->
+      <div class="modal modal-accept">
+        <div class="modal-content">
+          <div class="header">
+            <h2>Cookies</h2>
+          </div>
+          <p>
+            We use cookies to improve your experience. By clicking "Accept all", you
+            agree the use of cookies for marketing and analytic purposes.
+          </p>
+          <div class="buttons">
+            <button id="accept">Accept all</button>
+            <button id="settings">Settings</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Second Modal -->
+      <div  class="modal modal-settings">
+        <div class="modal-content">
+          <div class="header">
+            <h2>Settings</h2>
+          </div>
+          <div class="settings">
+            <div class ="toggle-container">
+                <div class="title">
+                    <p>Browser</p>
+                </div>
+                <div>
+                    <label class="switch">
+                        <input type="checkbox" class="browser">
+                        <span class="slider round"></span>
+                      </label>
+                </div>
+            </div>
+            <div class ="toggle-container">
+                <div class="title">
+                    <p>Operating System</p>
+                </div>
+                <div>
+                    <label class="switch">
+                        <input type="checkbox" class="os">
+                        <span class="slider round"></span>
+                      </label>
+                </div>
+            </div>
+            <div class ="toggle-container">
+                <div class="title">
+                    <p>Screen width</p>
+                </div>
+                <div>
+                    <label class="switch">
+                        <input type="checkbox" class="width">
+                        <span class="slider round"></span>
+                      </label>
+                </div>
+            </div>
+            <div class ="toggle-container">
+                <div class="title">
+                    <p>Screen height</p>
+                </div>
+                <div>
+                    <label class="switch">
+                        <input type="checkbox" class="height">
+                        <span class="slider round"></span>
+                      </label>
+                </div>
+            </div>
+          </div>
+          <button id="save">Save</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

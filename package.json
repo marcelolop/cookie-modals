@@ -1,0 +1,20 @@
+{
+  "name": "cookie",
+  "version": "1.0.0",
+  "description": "Creating cookies wiht modals",
+  "main": "cookie.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "keywords": [
+    "cookies",
+    "modals",
+    "JavaScript"
+  ],
+  "author": "Marcelo Lopes",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

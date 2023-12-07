@@ -5,4 +5,4 @@ This project is a demonstration of how to create cookies and modals in JavaScrip
 
 ## Demo
 
-To see the demo, click [here](https://marcelolopes.github.io/cookie-modals/).
+To see the demo, click [here](https://marcelolop.github.io/cookie-modals/).
